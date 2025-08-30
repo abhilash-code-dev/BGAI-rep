@@ -3,7 +3,7 @@ import Start from  './Pages/Start'
 import { Routes,Route } from 'react-router-dom'
 import Upload from './Pages/Upload'
 import Download from './Pages/Download'
-import bg from './Assets/main.jpg';
+//import bg from './Assets/main.jpg';
 import './index.css';
 const App = () => {
  
@@ -12,7 +12,7 @@ const App = () => {
       <div style={{
   width: "100vw",
   height: "100vh",
-  backgroundImage: `url(${bg})`,
+  //backgroundImage: `url(${bg})`,
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center",
